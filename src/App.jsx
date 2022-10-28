@@ -21,7 +21,7 @@ export default () => (
     <h1>Fundamentos do React</h1>
 
     <div className="Cards">
-      <Card titulo="#11 - Componente conntrolado (Inputs)" color="#E45F56">
+      <Card titulo="#11 - Componente controlado (Inputs)" color="#E45F56">
         <Input></Input>
       </Card>
 
@@ -33,7 +33,7 @@ export default () => (
         <DiretaPai></DiretaPai>
       </Card>
 
-      <Card titulo="#08 - Renderização condicioonal" color="#982395">
+      <Card titulo="#08 - Renderização condicional" color="#982395">
         <ParOuImpar numero={20}></ParOuImpar>
         <UsuarioInfo usuario={{nome: 'Fernando'}}/>
         <UsuarioInfo usuario={{}}/>
@@ -68,7 +68,7 @@ export default () => (
         <ComParametro titulo="Situção do aluno" aluno="Pedro" nota={8.3} />
       </Card>
 
-      <Card titulo="#01 - Prrimeiro componente" color="#651e3e">
+      <Card titulo="#01 - Primeiro componente" color="#651e3e">
         <First></First>
       </Card>
     </div>
